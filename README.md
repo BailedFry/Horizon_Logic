@@ -1,57 +1,126 @@
-# Horizon Logic (Structural Edition)
+Horizon Logic (Structural Edition)
+Version: v1.0.0
+Status: Public Preprint
+License: CC BY 4.0
 
-**Version:** v1.0.0  
-**Status:** Public preprint  
-**License:** CC BY 4.0
+Overview
+Horizon Logic (Structural Edition) formalises the behaviour of reasoning systems operating under bounded informational horizons.
+It provides the structural grammar governing:
 
----
+Horizon Formation
 
-## Overview
+Horizon Collapse
 
-_Horizon Logic (Structural Edition)_ is a formal framework for horizon-bounded reasoning, collapse, and recurrence in structured systems. It is designed as a companion to UFDT, focusing specifically on:
+Horizon Opacity
 
-- horizon opacity and visibility
-- structural collapse and recurrence behaviour
-- regime transitions across bounded information horizons
+Horizon Drift
 
-This repository provides the canonical PDF and licensing for the structural edition of Horizon Logic.
+Horizon Interaction
 
----
+This edition is basis‑independent, defining the structural rules that apply across any domain: mathematics, physics, AI reasoning engines, simulation systems, or recurrence‑bounded inference frameworks.
 
-## Files
+The structural edition is the canonical reference for horizon‑bounded reasoning within the broader UFDT ecosystem.
 
-- `HorizonLogic-StructuralEdition-v1.0.0.pdf`  
-  The primary document containing the formal definitions, operators, and structural regime analysis.
+Core Concepts
+Horizon Formation
+A horizon forms when the system’s information density exceeds its recurrence capacity:
 
-- `LICENSE`  
-  Creative Commons Attribution 4.0 International (CC BY 4.0).
+“A horizon forms when the system's structural information density exceeds its recurrence capacity.”
 
----
+Formally:
 
-## Citation
+𝐼
+>
+𝑅
+,
+𝐻
+=
+𝑓
+(
+𝐼
+−
+𝑅
+)
+Horizon Collapse
+Collapse occurs when the recurrence operator can no longer maintain horizon integrity:
 
-If you reference Horizon Logic (Structural Edition), please use:
+“Horizon collapse occurs when the system's structural recurrence operator fails to maintain horizon integrity.”
 
-> A. Fry, *Horizon Logic (Structural Edition)*, v1.0.0, 2026.
+Horizon Opacity
+Opacity measures distortion or loss when information crosses the horizon boundary:
 
-A BibTeX entry can be added in a future release if needed.
+𝑂
+=
+1
+−
+𝐼
+out
+𝐼
+in
+Horizon Drift
+Drift describes movement of the horizon boundary over time:
 
----
+𝑉
+𝑑
+=
+𝑑
+𝐻
+𝑑
+𝑡
+Horizon Interaction
+Multiple horizons interact through structural interference:
 
-## Relationship to UFDT
+𝑆
+=
+𝑔
+(
+𝐻
+1
+,
+𝐻
+2
+,
+𝑑
+)
+Repository Contents
+Horizon_Logic.pdf
+The canonical structural edition containing all formal definitions, operators, and horizon‑regime behaviour.
+This is the authoritative academic reference.
 
-Horizon Logic (Structural Edition) is part of the broader UFDT ecosystem and is intended to:
+LICENSE
+Creative Commons Attribution 4.0 International (CC BY 4.0).
+Same license as UFDT — no changes required.
 
-- formalise horizon-bounded reasoning structures
-- provide a reusable horizon/recurrence operator set
-- support future work on AI reasoning engines and structural regime analysis
+README.md
+This document.
 
-For the foundational theory, see the UFDT repository.
+Citation
+If you reference Horizon Logic (Structural Edition), please cite:
 
----
+A. Fry, Horizon Logic (Structural Edition), v1.0.0, 2026.
 
-## Versioning
+A BibTeX entry will be added in a future update.
 
-- **v1.0.0** — Initial public release.
+Relationship to UFDT
+Horizon Logic is a structural companion to UFDT, providing:
 
-Future versions will track refinements to the structural operators, regime maps, and horizon-collapse logic.
+Horizon‑bounded reasoning grammar
+
+Recurrence‑capacity constraints
+
+Structural collapse and drift operators
+
+Regime‑transition behaviour across informational boundaries
+
+UFDT provides the foundational theory; Horizon Logic provides the structural horizon framework.
+
+Versioning
+v1.0.0 — Initial public release  
+Includes structural operators, horizon formation rules, collapse logic, opacity mapping, drift behaviour, and interaction grammar.
+
+Future versions will refine the structural mappings and expand the regime‑space analysis.
+
+About
+Formal horizon‑bounded reasoning framework (structural edition).
+Companion to UFDT.
+Designed for cross‑domain academic use and future AI reasoning engine research.
